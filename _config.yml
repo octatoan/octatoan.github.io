@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>This is mostly a log of my ongoing efforts to make sense of the world. You're free to look around (if you can stomach math, and enjoyable discussions about math and sublime things of beauty like Haskell and puzzles).</p>
+     <p>This is mostly a log of my ongoing efforts to make sense of the world. You're welcome to look around (if you can stomach math, and enjoyable discussions about math and sublime things of beauty like Haskell and puzzles).</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
