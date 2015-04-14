@@ -58,6 +58,6 @@ if __name__ == "__main__":
 
 It's pretty fun to be doing some recreational coding after almost six months. I'll probably do a few more as I move through the lectures.
 
-(There might be mistakes somewhere in the code or my units or something. Please tell me if you spot any.)
+(There might be mistakes somewhere in the code, or my units, or *something*. Please tell me if you spot any.)
 
 (I wish I could use AMS Euler with KaTeX [with Concrete like in the book]. There's [an issue](https://github.com/Khan/KaTeX/issues/123) on the repo, let's see what happens -- I can wish, can't I?)
