@@ -2,11 +2,11 @@
 layout: post
 title: Simulating a simple harmonic oscillator in Python
 ---
-[So](https://www.tbray.org/ongoing/When/201x/2015/04/11/So-What), I've been going through Caltech's [beautifully-designed online version of the Feynman Lectures](http://www.feynmanlectures.caltech.edu) (to "get myself some physics", it being a subject I used to love -- that is, until having to remember, *off the top of my head*, which class of lever has an MA always > 1 kinda put me off physics and pushed me toward combi) and, as you probably know, they're brilliant. I got done with the first few chapters (they're enjoyably short, so you tend to think "Wow, that's a lot I got done" quite frequently!) and got to [chapter nine, section six](www.feynmanlectures.caltech.edu/I_09.html), (do a Ctrl-F "solu" or scroll down, I can't figure out how to do the # thing for some reason), where I decided to do a little Python simulation after a long time.
+[So](https://www.tbray.org/ongoing/When/201x/2015/04/11/So-What), I've been going through Caltech's [beautifully-designed online version of the Feynman Lectures](http://www.feynmanlectures.caltech.edu) (to "get myself some physics", it being a subject I used to love -- that is, until having to remember, *off the top of my head*, which class of lever has an MA always > 1 kinda put me off physics and pushed me toward combi) and, as you probably know, they're brilliant. I got done with the first few chapters (they're enjoyably short, so you tend to think "Wow, that's a lot I got done" quite frequently!) and got to [chapter nine, section six](www.feynmanlectures.caltech.edu/I_09.html) (do a Ctrl-F "solu" or scroll down, I can't figure out how to do the # thing for some reason), where I decided to do a little Python simulation after a long time.
 
 The section concerns numerically tracing the path of a simple harmonic oscillator -- in this case, a squeezed (or stretched) spring -- using Hooke's law. It's fairly simple if you've done this kind of thing before, and the code is somewhat self-explanatory (it never is). One thing to note is that Feynman assumes that $$k/m = 1$$, which I haven't done.
 
-It's a run-of-the-mill "enter your parameters, gape at this beautiful graph, do you want to do this again?" thing. I would've loved to do a whole animation of a spring with a little weight and everything, but my matplotlib-fu really isn't up to par at the moment, so . . . here's the code.
+It's a run-of-the-mill "enter your parameters, gape at this beautiful graph, do you want to do this again?" thing. I would've loved to do a whole animation of a spring with a little weight and everything, but my matplotlib-fu really isn't up to par at the moment, so . . . here's the code for a glorified $$\cos$$ plotter.
 
 {% highlight python %}
 #!/usr/bin/python3
@@ -59,3 +59,4 @@ if __name__ == "__main__":
 It's pretty fun to be doing some recreational coding after almost six months. I'll probably do a few more as I move through the lectures.
 
 (There might be mistakes somewhere in the code or my units or something. Please tell me if you spot any.)
+(I wish I could use AMS Euler with KaTeX (with Concrete like in the book). Oh, well, maybe someday.)
