@@ -6,6 +6,22 @@ title: Simulating a simple harmonic oscillator in Python
 
 The section concerns numerically tracing the path of a simple harmonic oscillator -- in this case, a squeezed (or stretched) spring -- using Hooke's law. It's fairly simple if you've done this kind of thing before, and the code is somewhat self-explanatory (it never is). One thing to note is that Feynman assumes that $$k/m = 1$$, which I haven't done.
 
+The equations we use are: 
+
+$$
+x(t+\epsilon) = x(t) + \epsilon v(t+\epsilon/2)
+$$
+
+$$
+v(t+\epsilon/2) = v(t-\epsilon/2) + \epsilon a(t)
+$$
+
+$$
+a(t) = -x(t)
+$$
+
+In addition, we use $$v(\epsilon/2) = v(0) + (\epsilon/2)a(0)$$ to get things started. 
+
 It's a run-of-the-mill "enter your parameters, gape at this beautiful graph, do you want to do this again?" thing. I would've loved to do a whole animation of a spring with a little weight and everything, but my matplotlib-fu really isn't up to par at the moment, so . . . here's the code for a glorified $$\cos$$ plotter.
 
 {% highlight python %}
