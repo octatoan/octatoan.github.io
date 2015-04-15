@@ -74,6 +74,10 @@ if __name__ == "__main__":
         cont = input("\nDo you want to have another go? (type n to exit): ") != "n"
 {% endhighlight %}
 
+Here's a nice picture with a few non-default parameters:
+
+![Yes, very nice.]({{ site.url }}/img/oscillator.png)
+
 It's pretty fun to be doing some recreational coding after almost six months. I'll probably do a few more as I move through the lectures.
 
 (There might be mistakes somewhere in the code, or my units, or *something*. Please tell me if you spot any.)
