@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 Here's a nice picture with a few non-default parameters:
 
-![Yes, very nice.]({{ site.url }}/img/oscillator.png)
+![Yes, very nice.]({{ site.url }}/img/oscillator.png){: .center-image }
 
 It's pretty fun to be doing some recreational coding after almost six months. I'll probably do a few more as I move through the lectures.
 

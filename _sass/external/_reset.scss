@@ -233,10 +233,16 @@ samp {
   font-size: 1em;
 }
 
+//----------------CUSTOM---------------------------
 code {
   font-family: monospace, monospace;
   font-size: 0.7em;
 }
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+} 
 
 /* Forms
    ========================================================================== */
