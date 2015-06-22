@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-      <p>I'm Soham, an aspiring mathematician and Haskell enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics), and is intended to look approximately as coherent as a toddler's art (as the title indicates).</p>
+      <p>I'm Soham, a math(s) and functional programming enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics), and is intended to look approximately as coherent as a toddler's art (as the title indicates).</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
