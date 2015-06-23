@@ -5,7 +5,7 @@ url: "http://ham.so" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Adventures of a functor yogi–in-training
+  title: "Adventures of a functor yogi–in-training"
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "Just another . . . oh wait" # used by search engines
