@@ -12,9 +12,9 @@ theme:
 
   # Header and footer text
   header_text: >
-      <p>I'm Soham, a math(s) and functional programming enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics), and is intended to look approximately as coherent as a toddler's art (as the title indicates).</p>
+      <p>I'm Soham, a math(s) and functional programming enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics), and I'll try to be somewhat regular and semi-coherent if possible. 
   footer_text: >
-   <a href="http://jekyllrb.com">Jekyll</a> with the  <a href="https://rohanchandra.github.io/project/type/">Type</a> theme
+   <a href="http://jekyllrb.com">Jekyll</a> with the <a href="https://rohanchandra.github.io/project/type/">Type</a> theme
 
   # Icons
   rss: true
