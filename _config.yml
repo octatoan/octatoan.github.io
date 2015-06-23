@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-      <p>I'm Soham, a math(s) and functional programming enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics). At the moment, I'm working toward learning enough to understand a little Galois theory and algebraic topology, with as heavy a dose of category theory as possible. (The title is warning enough, don't you think?)
+      <p>I'm Soham, a math(s) and functional programming enthusiast.<p>This is mostly a log of my ongoing efforts to learn about fascinating things (mostly in mathematics). At the moment, I'm working toward learning enough to understand a little Galois theory and algebraic topology, with as heavy a dose of category theory as possible. (The title is warning enough, I'd think.)
       <p>Coherence or sensicality isn't guaranteed, but I'll try to be regular.
   footer_text: >
    <a href="http://jekyllrb.com">Jekyll</a> with the <a href="https://rohanchandra.github.io/project/type/">Type</a> theme
